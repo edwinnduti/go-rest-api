@@ -276,7 +276,7 @@ func main(){
     //Get port
     Port := os.Getenv("PORT")
     if Port == "" {
-        Port = "8096"
+        Port = "8094"
     }
 
     // establish logger
