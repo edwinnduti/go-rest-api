@@ -1,7 +1,15 @@
 language: go
 
 go:
-- 1.14
+- 1.x
 - "1.10"
-- 1.11.14
+- 1.11.x
 - master
+
+install: true
+
+env:
+  global:
+    - GO111MODULE=on
+    - GOFLAGS="-mod=vendor"
+    - PATH=${TRAVIS_BUILD_DIR}/bin:${PATH}
