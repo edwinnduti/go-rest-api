@@ -1,6 +1,7 @@
 # GO-REST-API
 ![License: MIT](https://img.shields.io/badge/Language-Golang-blue.svg)
 [![Build Status](https://travis-ci.org/edwinnduti/go-rest-api.svg?branch=master)](https://travis-ci.org/edwinnduti/go-rest-api)
+![License: MIT](https://img.shields.io/badge/Database-MongoDB-lightgreen.svg)
 
 A rest API made in Golang.
 
